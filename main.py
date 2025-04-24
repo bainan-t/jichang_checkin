@@ -2,7 +2,7 @@ import requests, json, re, os
 
 session = requests.session()
 # 机场的地址
-url = https://69yun69.com('URL')
+url = 69yun69.com('URL')
 # 配置用户名（一般是邮箱）
 
 config = os.environ.get('CONFIG')
