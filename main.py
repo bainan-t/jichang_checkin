@@ -1,6 +1,6 @@
 import requests, json, re, os
 # 机场的地址
-url = os.environ.get('https://69yun69.com/auth/login')
+url = os.environ.get('https://china_69yun.337979.xyz/uuid/auth/login')
 # 配置用户名（一般是邮箱）
 
 config = os.environ.get('CONFIG')
