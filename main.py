@@ -9,13 +9,7 @@ config = os.environ.get('CONFIG')
 # server酱
 SCKEY = os.environ.get('SCKEY')
 
-# GeeTest V4 验证码 ID（从 ikuuu.org 提取）
-CAPTCHA_ID = 'cc96d05ba8b60f9112f76e18526fcb73'
 
-login_url = '{}/auth/login'.format(url)
-check_url = '{}/user/checkin'.format(url)
-
-MAX_RETRIES = 3
 
 def solve_captcha():
         """使用 GeekedTest 求解 GeeTest V4 验证码（纯 Python，无需浏览器），支持重试"""
