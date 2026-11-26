@@ -2,7 +2,7 @@ import requests, json, os, time
 from geeked import Geeked
 
 # 机场的地址
-url = os.environ.get('https://china_69yun.337979.xyz/uuid')
+url = os.environ.get('https://32isifj1jk.834928.xyz/uuid/auth/login')
 # 配置用户名（一般是邮箱）
 
 config = os.environ.get('CONFIG')
